@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;900&display=swap');
+html{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Montserrat',sans-serif;
+    margin:0;
+    padding:0;
+}
+.left{
+    width:50%;
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+    padding:2rem 0rem;
+    position: relative;
+    float:left;
+    height:40rem;
+    
+}
+h1{
+    color:rgb(239, 248, 241);
+    
+}
+span{
+    color:rgb(9, 243, 67);
+    /* font-size: larger; */
+}
+.left .container{
+    margin: 20% 0;
+}
+input{
+    display:block;
+    margin:2rem auto; 
+    padding:1rem;
+    width: 20rem;
+    border: none;
+    border-radius: 1rem;
+    background-color:rgb(27, 26, 26);
+    color:rgba(250, 235, 215, 0.644);
+}
+
+button{
+    color:rgb(27, 26, 26);
+    background-color: rgb(9, 243, 67);
+    border:none;
+    padding: 0.8rem;
+    border-radius: 1rem;
+    width: 22rem;
+    margin:1rem auto; 
+    display:block;
+    font-size: 1rem;
+    font-weight:bold;
+    cursor: pointer;
+}
+
+.right{
+    width:50%;
+    text-align: center;
+    background-color: rgb(27, 26, 26);
+    padding:2rem 0rem;
+    position:relative;
+    float:right;
+    height:40rem;
+    justify-content: center;
+}
+.right .output{
+    margin: 20% auto;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top:15rem;
+    max-width: 80%;
+    text-align: center;
+    justify-content: center;
+}
