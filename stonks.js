@@ -15,6 +15,12 @@ calculateBtn.addEventListener("click", function calculateHandler()
         if(initialPriceValue=="" || noOfStocksValue == "" || currentPriceValue ==""){
             alert("Please fill out all the fields");
         }
+        else if(initialPriceValue<0 || noOfStocksValue<0 || currentPriceValue<0){
+            alert("No field can be neagtive");
+        }
+        else if(noOfStocksValue%1!==0){
+            alert("Number of stock has to be a whole number");
+        }
         else{
             calculate(initialPriceValue, noOfStocksValue, currentPriceValue);
         }
